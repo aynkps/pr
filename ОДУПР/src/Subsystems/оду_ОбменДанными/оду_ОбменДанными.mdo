@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f715e68f-eb16-44f8-a8aa-4938649876ec">
+  <name>оду_ОбменДанными</name>
+  <synonym>
+    <key>ru</key>
+    <value>УОД</value>
+  </synonym>
+  <comment>Универсальный обмен данными (обмен)</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Универсальный обмен данными</value>
+  </explanation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.УОД</picture>
+  </picture>
+  <content>Enum.оду_СпособОбменаДанными</content>
+  <content>Enum.оду_СостоянияОбмена</content>
+  <content>Enum.оду_РежимОбмена</content>
+  <content>HTTPService.оду_universalExchange</content>
+  <content>EventSubscription.оду_ЗарегистрироватьИзменение</content>
+  <content>EventSubscription.оду_ЗарегистрироватьУдаление</content>
+  <content>EventSubscription.оду_ПроведениеДокументов</content>
+  <content>EventSubscription.оду_ЗарегистрироватьИзменениеДокумента</content>
+  <content>CommonModule.оду_ОбщийПовтИсп</content>
+  <content>CommonModule.оду_Общий</content>
+  <content>FunctionalOption.оду_ИспользоватьУниверсальныйОбмен</content>
+  <content>Role.оду_Администрирование</content>
+  <content>CommonCommand.оду_ВыполнитьУниверсальныйОбменПоОбъекту</content>
+  <content>CommonModule.оду_Клиент</content>
+  <content>CommonModule.оду_ОбменДанными</content>
+  <subsystems>НастройкиИСправочники</subsystems>
+  <subsystems>Сервис</subsystems>
+</mdclass:Subsystem>

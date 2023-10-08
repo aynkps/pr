@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ecb5fa12-9d20-442c-af16-4d64ef96854e">
+  <name>НастройкиИСправочники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки и справочники</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.оду_БазыУчастникиОбмена</content>
+  <content>InformationRegister.оду_НастройкиИнформационнойБазы</content>
+  <content>InformationRegister.оду_НастройкиУчастниковОбмена</content>
+  <content>InformationRegister.оду_ОшибкиОбмена</content>
+  <content>InformationRegister.оду_РегистрацияОбъектовОбмена</content>
+  <content>InformationRegister.оду_СостояниеОбъектовОбмена</content>
+  <content>CommonForm.оду_ФормаНастроекУниверсальногоОбмена</content>
+  <parentSubsystem>Subsystem.оду_ОбменДанными</parentSubsystem>
+</mdclass:Subsystem>

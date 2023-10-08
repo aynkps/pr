@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37c52382-db99-442d-b688-613f169bfd32">
+  <name>пр_ПодсистемаРазработчика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема разработчика</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <explanation>
+    <key>ru</key>
+    <value>Подсистема разработки</value>
+  </explanation>
+  <content>InformationRegister.пр_НастройкиРаботыМодулейМетодов</content>
+  <content>InformationRegister.пр_СписокЗадачРазработки</content>
+  <content>Catalog.пр_ЗадачиРазработки</content>
+  <content>CommonModule.пр_НастройкиПовтИсп</content>
+  <content>CommonModule.пр_Клиент</content>
+  <content>CommonModule.пр_КлиентСервер</content>
+  <content>CommonModule.пр_Общий</content>
+  <content>CommonModule.пр_НастройкиКлиентПовтИсп</content>
+  <content>InformationRegister.пр_Логи</content>
+</mdclass:Subsystem>
