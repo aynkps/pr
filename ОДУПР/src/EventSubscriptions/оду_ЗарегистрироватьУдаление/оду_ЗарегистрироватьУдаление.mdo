@@ -6,7 +6,10 @@
     <value>Оду зарегистрировать удаление</value>
   </synonym>
   <source>
+    <types>CatalogObject.оду_НастройкаКонвертацииДанных</types>
+    <types>CatalogObject.оду_БазыУчастникиОбмена</types>
     <types>CatalogObject.Организации</types>
+    <types>CatalogObject.оду_ПравилаРегистрацииОбмена</types>
   </source>
   <event>BeforeDelete</event>
   <handler>CommonModule.оду_Общий.РегистрацияПередУдалением</handler>

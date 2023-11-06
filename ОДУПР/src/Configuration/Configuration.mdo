@@ -23,8 +23,8 @@
   <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
-  <modalityUseMode>DontUse</modalityUseMode>
-  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <modalityUseMode>UseWithWarnings</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>UseWithWarnings</synchronousPlatformExtensionAndAddInCallUseMode>
   <compatibilityMode>8.3.18</compatibilityMode>
   <languages uuid="0e483970-f545-4bee-8cdd-6f29bbf47691">
     <name>Русский</name>
@@ -58,18 +58,23 @@
   <commonCommands>CommonCommand.оду_ВыполнитьУниверсальныйОбменПоОбъекту</commonCommands>
   <constants>Constant.оду_ИспользоватьУниверсальныйОбмен</constants>
   <commonForms>CommonForm.оду_ФормаНастроекУниверсальногоОбмена</commonForms>
-  <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
+  <catalogs>Catalog.ДополнительныеОтчетыИОбработки</catalogs>
   <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.оду_БазыУчастникиОбмена</catalogs>
   <catalogs>Catalog.пр_ЗадачиРазработки</catalogs>
-  <catalogs>Catalog.ДополнительныеОтчетыИОбработки</catalogs>
-  <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <catalogs>Catalog.оду_ПравилаРегистрацииОбмена</catalogs>
+  <catalogs>Catalog.оду_НастройкаКонвертацииДанных</catalogs>
+  <documents>Document.КорректировкаРегистров</documents>
   <documents>Document.РеализацияТоваровУслуг</documents>
   <enums>Enum.оду_РежимОбмена</enums>
   <enums>Enum.оду_СостоянияОбмена</enums>
   <enums>Enum.оду_СпособОбменаДанными</enums>
   <enums>Enum.пр_МестоКомпиляцииКода</enums>
+  <enums>Enum.оду_КонфигурацияКонвертацииДанных</enums>
+  <enums>Enum.оду_СобытияРегистрацииОбмена</enums>
   <dataProcessors>DataProcessor.УниверсальныйОбменДаннымиXML</dataProcessors>
   <dataProcessors>DataProcessor.оду_УниверсальныйОбменДаннымиXML</dataProcessors>
   <informationRegisters>InformationRegister.оду_НастройкиИнформационнойБазы</informationRegisters>

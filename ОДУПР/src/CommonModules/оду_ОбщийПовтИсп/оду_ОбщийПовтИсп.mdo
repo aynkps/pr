@@ -8,6 +8,5 @@
   <server>true</server>
   <externalConnection>true</externalConnection>
   <serverCall>true</serverCall>
-  <privileged>true</privileged>
   <returnValuesReuse>DuringSession</returnValuesReuse>
 </mdclass:CommonModule>

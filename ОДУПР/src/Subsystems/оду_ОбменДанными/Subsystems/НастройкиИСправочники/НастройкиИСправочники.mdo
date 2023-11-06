@@ -9,10 +9,13 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.оду_БазыУчастникиОбмена</content>
   <content>InformationRegister.оду_НастройкиИнформационнойБазы</content>
-  <content>InformationRegister.оду_НастройкиУчастниковОбмена</content>
   <content>InformationRegister.оду_ОшибкиОбмена</content>
   <content>InformationRegister.оду_РегистрацияОбъектовОбмена</content>
   <content>InformationRegister.оду_СостояниеОбъектовОбмена</content>
   <content>CommonForm.оду_ФормаНастроекУниверсальногоОбмена</content>
+  <content>Catalog.оду_НастройкаКонвертацииДанных</content>
+  <content>Enum.оду_КонфигурацияКонвертацииДанных</content>
+  <content>Catalog.оду_ПравилаРегистрацииОбмена</content>
+  <content>Enum.оду_СобытияРегистрацииОбмена</content>
   <parentSubsystem>Subsystem.оду_ОбменДанными</parentSubsystem>
 </mdclass:Subsystem>

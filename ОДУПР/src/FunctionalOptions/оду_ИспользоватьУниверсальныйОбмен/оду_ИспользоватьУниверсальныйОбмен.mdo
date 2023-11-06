@@ -14,4 +14,6 @@
   <content>Subsystem.оду_ОбменДанными.Subsystem.НастройкиИСправочники</content>
   <content>Catalog.оду_БазыУчастникиОбмена</content>
   <content>DataProcessor.оду_УниверсальныйОбменДаннымиXML</content>
+  <content>Catalog.оду_НастройкаКонвертацииДанных</content>
+  <content>InformationRegister.оду_СинхронизацияРегистровУчета</content>
 </mdclass:FunctionalOption>

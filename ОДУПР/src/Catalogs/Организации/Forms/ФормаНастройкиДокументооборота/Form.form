@@ -212,21 +212,21 @@
           <key>ru</key>
           <value>Документооборот отключен</value>
         </presentation>
-        <value xsi:type="core:ReferenceValue"/>
+        <value xsi:type="core:UndefinedValue"/>
       </choiceList>
       <choiceList>
         <presentation>
           <key>ru</key>
           <value>Документооборот в универсальном формате с использованием встроенного механизма</value>
         </presentation>
-        <value xsi:type="core:ReferenceValue"/>
+        <value xsi:type="core:UndefinedValue"/>
       </choiceList>
       <choiceList>
         <presentation>
           <key>ru</key>
           <value>Документооборот с использованием возможности представления отчетности в ФНС посредством ПК &quot;Спринтер&quot;</value>
         </presentation>
-        <value xsi:type="core:ReferenceValue"/>
+        <value xsi:type="core:UndefinedValue"/>
       </choiceList>
     </extInfo>
   </items>

@@ -99,6 +99,52 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
+      <name>КонфигурацияКонвертацииОбмена</name>
+      <id>49</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.КонфигурацияКонвертацииОбмена</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>КонфигурацияКонвертацииОбменаРасширеннаяПодсказка</name>
+        <id>51</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>КонфигурацияКонвертацииОбменаКонтекстноеМеню</name>
+        <id>50</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
       <name>ТипXMLОбъектаИсточника</name>
       <id>43</id>
       <visible>true</visible>
@@ -809,7 +855,7 @@
 	РегистрСведенийоду_РегистрацияОбъектовОбмена.МетаданныеНаименование КАК МетаданныеНаименование,
 	РегистрСведенийоду_РегистрацияОбъектовОбмена.ТипXMLОбъектаИсточника КАК ТипXMLОбъектаИсточника,
 	РегистрСведенийоду_РегистрацияОбъектовОбмена.ТипXMLОбъектаПриемника КАК ТипXMLОбъектаПриемника
-ИЗ
+	ИЗ
 	РегистрСведений.оду_РегистрацияОбъектовОбмена КАК РегистрСведенийоду_РегистрацияОбъектовОбмена
 		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.оду_БазыУчастникиОбмена КАК оду_БазыУчастникиОбмена
 		ПО РегистрСведенийоду_РегистрацияОбъектовОбмена.ИДБазыПриемник = оду_БазыУчастникиОбмена.ИДБазы

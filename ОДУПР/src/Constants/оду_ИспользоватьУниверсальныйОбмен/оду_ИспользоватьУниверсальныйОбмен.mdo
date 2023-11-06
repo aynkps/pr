@@ -8,7 +8,7 @@
   <name>оду_ИспользоватьУниверсальныйОбмен</name>
   <synonym>
     <key>ru</key>
-    <value>Использовать универсальный обмен</value>
+    <value>Использовать универсальный обмен (УОД)</value>
   </synonym>
   <type>
     <types>Boolean</types>

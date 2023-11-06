@@ -6,6 +6,14 @@
 	</filter>
 	<order>
 		<item xsi:type="OrderItemField">
+			<field>БазаИсточник</field>
+			<orderType>Asc</orderType>
+		</item>
+		<item xsi:type="OrderItemField">
+			<field>БазаПриемник</field>
+			<orderType>Asc</orderType>
+		</item>
+		<item xsi:type="OrderItemField">
 			<field>ПриоритетОбмена</field>
 			<orderType>Asc</orderType>
 		</item>
@@ -27,6 +35,7 @@
 	<item xsi:type="StructureItemGroup">
 		<groupItems>
 			<item xsi:type="GroupItemField">
+				<use>false</use>
 				<field>БазаПриемник</field>
 				<groupType>Items</groupType>
 				<periodAdditionType>None</periodAdditionType>
@@ -48,6 +57,7 @@
 			<item xsi:type="StructureItemGroup">
 				<groupItems>
 					<item xsi:type="GroupItemField">
+						<use>false</use>
 						<field>ТипXMLОбъектаИсточника</field>
 						<groupType>Items</groupType>
 						<periodAdditionType>None</periodAdditionType>

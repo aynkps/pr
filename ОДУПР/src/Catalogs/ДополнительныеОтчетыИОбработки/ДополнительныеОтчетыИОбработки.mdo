@@ -107,7 +107,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <characteristics>
-    <typesFilterValue xsi:type="core:ReferenceValue"/>
+    <typesFilterValue xsi:type="core:UndefinedValue"/>
     <dataPathField>-1</dataPathField>
     <multipleValuesUseField>-1</multipleValuesUseField>
     <multipleValuesKeyField>-1</multipleValuesKeyField>
